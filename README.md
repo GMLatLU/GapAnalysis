@@ -2,9 +2,9 @@
 
 Programs used in the manuscript 'European Agrifood and Forestry Education for a Sustainable Future - Gap Analysis from an Informatics Approach' by Burleigh and Jönsson.
 
-To begin you must identify Masters program URLs using the European Tertiary Education Register database (ETER, www.eter-project.com). See manuscript for details.
+To begin you must identify universities with appropriate Masters programs using the European Tertiary Education Register database (ETER, www.eter-project.com). See manuscript for details.
 
-#collect text from each of the progam site(s). See manuscript for details. When done, run:
+#collect text from each of the university progam site(s) by running:
 Gap_scrape.py
 
 #Collect all the scraping results in a document called 'website_data.csv'.
