@@ -8,9 +8,9 @@ To begin you must identify universities with appropriate Masters programs using 
 Gap_scrape.py
 
 #Collect all the scraping results in a document called 'website_data.csv'.
-#See our Zenodo Repository, DOI 10.5281/zenodo.6501547
+#See our Zenodo Repository, 10.5281/zenodo.10782379
     
-#The following program uses 'website_data.csv' and counts the keywords in the programs using keywords.csv and extra_stopwords.csv found at the Zenodo Repository, DOI 10.5281/zenodo.6501547:
+#The following program uses 'website_data.csv' and counts the keywords in the programs using keywords.csv and extra_stopwords.csv found at the Zenodo Repository, 10.5281/zenodo.10782379:
 Gap_collect_data.py
 
 #Geolocate the countries and the total words collected from each country:
