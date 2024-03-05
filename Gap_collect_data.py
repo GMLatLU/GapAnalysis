@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
+__author__ = "S. Burleigh, Food Technology, Lund University"
+__email__ = "stephen.burleigh@food.lth.se"
+__status__ = "Development"
+__copyright__ = "2022, Lund University"
+
 """
-Uses website_data.csv made from web scraping Masters programs.
-See our Zenodo Repository, DOI 10.5281/zenodo.6501547
+Takes website data as input and generates spreadsheet for the gap analysis. 
+Uses website_data.csv, extra_stopwords.csv and keywords.csv from Zenodo Repository, 10.5281/zenodo.10782379.
 """
 
 #imports
@@ -17,7 +22,6 @@ from collections import defaultdict
 PROJ = 'Gap3'
 doc = 'website_data.csv' 
 kwdoc = 'keywords.csv'
-stp = 'extra_stopwords.csv'
 
 #dirs
 cwd = os.getcwd()
@@ -104,3 +108,4 @@ df = pd.concat([df, df2], axis=1)
 #save
 fil = datadir + PROJ + '_' + 'add_keywords.csv'
 df.to_csv(fil, index=False, sep="\t") 
+
