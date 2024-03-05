@@ -5,7 +5,6 @@ __status__ = "Development"
 __copyright__ = "2022, Lund University"
 
 """
-Takes website data as input and generates spreadsheet for the gap analysis. 
 Uses website_data.csv, extra_stopwords.csv and keywords.csv from Zenodo Repository, 10.5281/zenodo.10782379.
 """
 
