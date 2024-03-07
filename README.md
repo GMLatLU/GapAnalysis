@@ -28,5 +28,5 @@ Gap_relative_values.py
 #Create a piechart of the various interdisciplinary combinations of agriculture, food and forestry scores for the programs:
 Gap_piechart.py
 
-#Create a PLS plot using ag, food and forestry as explanatory variables and NextFood vocabulary as response variables. This is equivalent to the PLS Matlab code used in the study:
-Gap_PLS_biplot.py
+#Create a PLS plot using the subjects of agriculture, food and forestry as explanatory variables and the NextFood vocabulary as response variables. This is equivalent to the PLS Matlab code used in the study:
+Gap_PLS_biplot.py.
