@@ -19,7 +19,7 @@ Gap_mapcountries.py
 #Identify node and edge relations in terms of total words collected. This is used with Cytoscape (https://cytoscape.org/):
 Gap_network.py
 
-#Create a relations plot showing the degree to which each program (colored by region) is associated with ag, food and forestry:
+#Create a relations plot showing the degree to which each program (colored by region) is associated with the subjects of agriculture, food and forestry:
 Gap_relations_plot.py
 
 #For the remaining analyses, use relative values (keywords used in a given program relative to all words used in that program). To create relative values run:
