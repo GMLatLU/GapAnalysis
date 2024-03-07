@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Create a PLS plot using ag, food and forestry as explanatory variables and NextFood vocabulary as response variables. This is equivalent to the PLS Matlab code used in the actual study.
+Create a PLS plot using ag, food and forestry as explanatory variables and the NextFood vocabulary as response variables. This is equivalent to the PLS Matlab code used in the actual study.
+Confidence intervals for the Effects Plots can be identified using statsmodels OLS.
 """
 
 #imports
