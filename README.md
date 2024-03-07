@@ -22,7 +22,7 @@ Gap_network.py
 #Create a relations plot showing the degree to which each program (colored by region) is associated with the subjects of agriculture, food and forestry:
 Gap_relations_plot.py
 
-#For the remaining analyses, use relative values (keywords used in a given program relative to all words used in that program). To create relative values run:
+#For the remaining analyses, use relative values (keywords used in a given program relative to all words collected in that program). To create relative values run:
 Gap_relative_values.py
 
 #Create a piechart of the various interdisciplinary combinations of ag, food and forestry scores for the programs:
