@@ -25,7 +25,7 @@ Gap_relations_plot.py
 #For the remaining analyses, use relative values (keywords used in a given program relative to all words collected in that program). To create relative values run:
 Gap_relative_values.py
 
-#Create a piechart of the various interdisciplinary combinations of ag, food and forestry scores for the programs:
+#Create a piechart of the various interdisciplinary combinations of agriculture, food and forestry scores for the programs:
 Gap_piechart.py
 
 #Create a PLS plot using ag, food and forestry as explanatory variables and NextFood vocabulary as response variables. This is equivalent to the PLS Matlab code used in the study:
